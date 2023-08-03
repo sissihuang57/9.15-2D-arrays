@@ -28,6 +28,8 @@ function setup() {
 function draw() {
   background(51);
 
+
+  // 30 是矩阵的一个单位，长度和宽度。使用两次循环，画出平面矩阵
   for (var i = 0; i < cols; i++) {
     for (var j = 0; j < rows; j++) {
       var x = i * 30;
